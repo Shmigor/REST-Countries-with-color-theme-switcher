@@ -1,11 +1,20 @@
+import Header from "../components/Header";
+import Catalog from "../components/Catalog";
+
+
 const Homepage = ()=>{
     return(
         <div>
-            <h1>Hello world</h1>
+            <Header/>
+
+
+            <Catalog/>
+        
+
         </div>
+
+
     )
-}
-
-
+};
 
 export default Homepage;
