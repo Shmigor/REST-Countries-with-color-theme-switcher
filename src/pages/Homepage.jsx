@@ -6,14 +6,8 @@ const Homepage = ()=>{
     return(
         <div>
             <Header/>
-
-
             <Catalog/>
-        
-
         </div>
-
-
     )
 };
 
