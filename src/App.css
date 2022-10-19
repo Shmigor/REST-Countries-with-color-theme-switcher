@@ -22,6 +22,7 @@ header {
 
 .mode-text {
   font-weight: 600;
+  cursor: pointer;
 }
 
 .country-catalog {
@@ -54,6 +55,10 @@ header {
   align-items: center;
 }
 
+/* .light {
+  background-color: lightgrey;
+} */
+
 .flag-img {
   max-width: 250px;
   width: 100%;
@@ -79,7 +84,13 @@ header {
   border-radius: 10px;
   max-width: 250px;
   width: 100%;
+  transition: 0.5s;
+  cursor: pointer;
 }
+
+.card-container:hover {
+  transform: scale(1.05);
+ }
 
 .card-container-content {
   padding: 10px;
