@@ -5,7 +5,7 @@ import {useState, useEffect} from "react";
 
 
 
-const Catalog = ()=>{
+const Catalog = ({isDarkMode, setIsDarkMode})=>{
 
     const [countries, setCountries] = useState(data);
     const [searchQuery, setSearchQuery] = useState("");
@@ -18,11 +18,15 @@ const Catalog = ()=>{
     },[searchQuery]);
 
     return(
-        <div className="contry-catalog">
-            <Search setSearchQuery={setSearchQuery}/>
+        <div className={isDarkMode ? "country-catalog country-catalog-dark" : "country-catalog"}>
+            <Search setSearchQuery={setSearchQuery}
+                    setIsDarkMode={setIsDarkMode} 
+                    isDarkMode={isDarkMode}/>
             <div className="country-catalog-wrapper">
                 {countries.map((country) => {
                     return <Card 
+                            setIsDarkMode={setIsDarkMode} 
+                            isDarkMode={isDarkMode}
                             key={country.name}
                             country = {country} />
                 })}

@@ -1,6 +1,6 @@
-const Card = ({country})=> {
+const Card = ({country, setIsDarkMode, isDarkMode})=> {
     return(
-        <div className="card-container">
+        <div className={isDarkMode ? "card-container card-container-dark" : "card-container"}>
             
             <img className="flag-img" src={country.flags.svg} alt={country.name} />
             <div className="card-container-content">

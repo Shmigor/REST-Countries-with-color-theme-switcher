@@ -13,21 +13,49 @@ header {
   flex-wrap: wrap;
 }
 
-.switchmode-container {
+.header-dark {
+  background-color: rgb(54, 69, 79);
+  color: white;
+}
+
+.switchmode-btn {
   display: flex;
   align-items: flex-end;
   gap: 10px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.switchmode-btn-dark {
+  background-color: rgb(54, 69, 79);
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
 }
 
 
 .mode-text {
   font-weight: 600;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .country-catalog {
-  background-color: lightgrey;
+  background-color: lightgray;
   padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-catalog-dark {
+  background-color: #2b3945;
+  color: white;
 }
 
 .search-container {
@@ -47,13 +75,10 @@ header {
   background-color: lightgray;
 }
 
-.contry-catalog {
-  background-color: lightgray;
-  padding: 50px 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.search-input-dark {
+  background-color: #2b3945;
 }
+
 
 /* .light {
   background-color: lightgrey;
@@ -75,6 +100,10 @@ header {
   width: 100%;
 }
 
+/* .country-catalog-wrapper-dark {
+  background-color: #2b3945;
+} */
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -86,6 +115,10 @@ header {
   width: 100%;
   transition: 0.5s;
   cursor: pointer;
+}
+
+.card-container-dark {
+  background-color: rgb(54, 69, 79);
 }
 
 .card-container:hover {

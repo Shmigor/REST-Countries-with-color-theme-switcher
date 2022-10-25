@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
-const Search = ({setSearchQuery})=>{
+const Search = ({setSearchQuery, isDarkMode, setIsDarkMode})=>{
     const handleSearch = (e) => {
         setSearchQuery(e.target.value);
        };
@@ -12,7 +12,7 @@ const Search = ({setSearchQuery})=>{
             <div className="search-icon">
             <FontAwesomeIcon icon={faMagnifyingGlass}/>
             </div>
-            <input className="search-input" placeholder="Search for a country..." type="search" onChange={handleSearch}/>
+            <input className={isDarkMode ? "search-input search-input-dark" : "search-input"} placeholder="Search for a country..." type="search" onChange={handleSearch}/>
         </div>
     )
 }
