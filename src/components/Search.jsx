@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
-const Search = ({setSearchQuery, isDarkMode, setIsDarkMode})=>{
+const Search = ({setSearchQuery, isDarkMode})=>{
     const handleSearch = (e) => {
         setSearchQuery(e.target.value);
        };
