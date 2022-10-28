@@ -12,14 +12,22 @@ const Catalog = ({isDarkMode, setIsDarkMode})=>{
     const [searchQuery, setSearchQuery] = useState("");
     const [select, setSelect] = useState("");
 
-
     useEffect(()=>{
-        setCountries(
-            data
-                .filter((country)=>
-                country.name.toLowerCase().includes(searchQuery.toLowerCase())
-            ).filter((country) => country.region.includes(select))
-        );
+        if (select === "All") {
+            setCountries(
+                data
+                    .filter((country)=>
+                    country.name.toLowerCase().includes(searchQuery.toLowerCase())
+                )
+            );
+        } else {
+            setCountries(
+                data
+                    .filter((country)=>
+                    country.name.toLowerCase().includes(searchQuery.toLowerCase())
+                ).filter((country) => country.region.includes(select))
+            );
+        }
     }, [searchQuery, select]);
 
     return(
@@ -36,7 +44,6 @@ const Catalog = ({isDarkMode, setIsDarkMode})=>{
             <div className="country-catalog-wrapper">
                 {countries.map((country) => {
                     return <Card 
-                            setIsDarkMode={setIsDarkMode} 
                             isDarkMode={isDarkMode}
                             key={country.name}
                             country = {country} />

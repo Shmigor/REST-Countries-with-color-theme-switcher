@@ -11,7 +11,14 @@ header {
   align-items: center;
   padding: 50px 100px;
   flex-wrap: wrap;
+  text-decoration: none;
 }
+
+/* .where {
+  text-decoration: none;
+  cursor: pointer;
+
+} */
 
 @media only screen and (max-width: 768px) {
   .header {
@@ -185,4 +192,49 @@ header {
 
 .card-container-content h3 {
   padding: 25px 0;
+}
+
+
+
+
+
+.country-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px 100px;
+  background-color: lightgray;
+  height: calc(100vh - 137px);
+}
+
+.country-info-wrapper-dark{
+  background-color: #2b3945;
+  color: white;
+}
+
+
+.back-btn {
+  border: 2px solid black;
+  box-shadow: 0px 0px 20px;
+  background-color: transparent;
+  max-width: 100px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.back-btn-dark {
+  background-color: rgb(54, 69, 79);
+  color: white;
+}
+
+.country-info-container {
+  display: flex;
+  gap: 100px;
+}
+
+.country-info-flag {
+  max-width: 500px;
+  width: 100%;
 }

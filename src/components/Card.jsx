@@ -1,9 +1,14 @@
-const Card = ({country, setIsDarkMode, isDarkMode})=> {
+import {useNavigate} from "react-router-dom";
+
+const Card = ({country, isDarkMode})=> {
+
+    const navigate = useNavigate();
+
     return(
-        <div className={isDarkMode ? "card-container card-container-dark" : "card-container"}>
+        <div onClick={() => navigate(`/${country.name}`)} className={isDarkMode ? "card-container card-container-dark" : "card-container"}>
             
             <div className="flag-img-wrapper">
-                <img className="flag-img" src={country.flags.svg} alt={country.name} />
+                <img className="flag-img" src={country.flags.png} alt={country.name} />
             </div>
             <div className="card-container-content">
                 <h3>{country.name}</h3>
@@ -14,5 +19,6 @@ const Card = ({country, setIsDarkMode, isDarkMode})=> {
         </div>
     )
 }
+
 
 export default Card;
