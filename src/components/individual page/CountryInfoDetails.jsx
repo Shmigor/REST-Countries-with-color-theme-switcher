@@ -1,9 +1,12 @@
 import { useParams } from "react-router";
-import { data } from "../data";
+import { data } from "../../data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import {useNavigate} from "react-router-dom";
+import {useEffect, useState} from "react";
+import { Oval } from 'react-loader-spinner'
+
 
 
 
@@ -14,9 +17,34 @@ const CountryInfoDetails = ({isDarkMode}) => {
         const { name } = useParams();
         const country = data.filter((item) => item.name === name);
         console.log(country[0].name);
-
-
         const navigate = useNavigate();
+
+        const [isLoading, setIsLoading] = useState(false);
+        useEffect(() => {
+            setIsLoading(true);
+            setTimeout(() => {
+                setIsLoading(false);
+            },[2000]);
+        },[]);
+        if(isLoading) {
+            return(
+                <div className="loader">
+               <Oval
+                    height={80}
+                    width={80}
+                    color="#FFFFFF"
+                    wrapperStyle={{}}
+                    wrapperClass=""
+                    visible={true}
+                    ariaLabel='oval-loading'
+                    secondaryColor="#C4C1C0"
+                    strokeWidth={2}
+                    strokeWidthSecondary={2}
+/>
+                </div>
+            );
+        };
+
 
     return(
         <div className={isDarkMode ? "country-info-wrapper country-info-wrapper-dark" : "country-info-wrapper"}>

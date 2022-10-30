@@ -306,3 +306,10 @@ header {
 .country-info-content-title-notbold {
   font-weight: normal;
 }
+
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

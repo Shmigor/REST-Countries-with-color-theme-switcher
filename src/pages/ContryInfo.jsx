@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import {useState} from "react";
-import CountryInfoDetails from "../components/CountryInfoDetails";
+import CountryInfoDetails from "../components/individual page/CountryInfoDetails";
 
 const CountryInfo = () => {
 
