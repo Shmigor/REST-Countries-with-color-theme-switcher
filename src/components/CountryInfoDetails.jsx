@@ -3,14 +3,20 @@ import { data } from "../data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
+import {useNavigate} from "react-router-dom";
 
 
 
 const CountryInfoDetails = ({isDarkMode}) => {
 
-    const { name } = useParams();
-    const country = data.filter((item) => item.name === name);
+    
+
+        const { name } = useParams();
+        const country = data.filter((item) => item.name === name);
         console.log(country[0].name);
+
+
+        const navigate = useNavigate();
 
     return(
         <div className={isDarkMode ? "country-info-wrapper country-info-wrapper-dark" : "country-info-wrapper"}>
@@ -25,23 +31,44 @@ const CountryInfoDetails = ({isDarkMode}) => {
 
             <div className="country-info-container">
                 <img className="country-info-flag" src={country[0].flags.svg} alt="" />
-                <div>
+                <div className="country-info-content-wrapper">
                     <div className="country-info-content-countryname">
                         <h2>{country[0].name}</h2>
                     </div>
                     <div className="country-info-content-other">
-                        <p>Native Name: <span>{country[0].nativeName}</span></p>
-                        <p>Population: <span>{country[0].population}</span></p>
-                        <p>Region: <span>{country[0].region}</span></p>
-                        <p>Sub Region: <span>{country[0].subregion}</span></p>
-                        <p>Capital: <span>{country[0].capital}</span></p>
-                        <p>Top level domain: <span>{country[0].topLevelDomain}</span></p>
-                        <p>Currencies: </p>
-                        <p>Languages: </p>
+                        <div>
+                            <p className="country-info-content-title">Native Name: <span className="country-info-content-title-notbold">{country[0].nativeName}</span></p>
+                            <p className="country-info-content-title"> Population: <span className="country-info-content-title-notbold">{country[0].population}</span></p>
+                            <p className="country-info-content-title">Region: <span className="country-info-content-title-notbold">{country[0].region}</span></p>
+                            <p className="country-info-content-title">Sub Region: <span className="country-info-content-title-notbold">{country[0].subregion}</span></p>
+                            <p className="country-info-content-title">Capital: <span className="country-info-content-title-notbold">{country[0].capital}</span></p>
+                            <p className="country-info-content-title">Area: <span className="country-info-content-title-notbold">{country[0].area}km²</span></p>
+                        </div>
+                        <div>
+                            <p className="country-info-content-title">Top level domain: <span className="country-info-content-title-notbold">{country[0].topLevelDomain}</span></p>
+                            <p className="country-info-content-title">Time Zone: <span className="country-info-content-title-notbold">{country[0].timezones[0]}</span></p>
+                            <p className="country-info-content-title">Currencies: {country[0].currencies.map((currencies)=> {
+                                return (
+                                    <span className="country-info-content-title-notbold"> {currencies.code}, {currencies.name}, {currencies.symbol}</span>
+                                )
+                            }
+                            )}</p>
+                            <p className="country-info-content-title">Languages: {country[0].languages.map((languages)=> {
+                                return (
+                                    <span className="country-info-content-title-notbold"> {languages.iso639_1}, {languages.iso639_2}, {languages.name}, {languages.nativeName} </span>
+                                )
+                            }
+                            )}</p>
+                        </div>
                     </div>
 
                     <div className="country-info-borders">
-                    <p>Border Countries: </p>
+                    Border Countries: 
+                        {country[0].borders.map((borders) => {
+                            return (
+                                <button onClick={() => navigate(`/${country[0].alpha3Code}`)} className={isDarkMode ? "borders-btn borders-btn-dark" : "borders-btn"}>{borders}</button>
+                            )
+                            })}
                     </div>
                 </div>
             </div>

@@ -63,6 +63,7 @@ export const data = [
   demonym: "Ålandish",
   area: 1580.0,
   timezones: ["UTC+02:00"],
+  borders: [],
   nativeName: "Åland",
   numericCode: "248",
   flags: {
@@ -218,6 +219,7 @@ export const data = [
   demonym: "American Samoan",
   area: 199.0,
   timezones: ["UTC-11:00"],
+  borders: [],
   nativeName: "American Samoa",
   numericCode: "016",
   flags: {
@@ -371,6 +373,7 @@ export const data = [
   demonym: "Anguillian",
   area: 91.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Anguilla",
   numericCode: "660",
   flags: {
@@ -410,15 +413,9 @@ export const data = [
   demonym: "Antarctic",
   area: 1.4e7,
   timezones: [
-   "UTC-03:00",
-   "UTC+03:00",
-   "UTC+05:00",
-   "UTC+06:00",
-   "UTC+07:00",
-   "UTC+08:00",
-   "UTC+10:00",
-   "UTC+12:00",
+   "UTC-03:00"
   ],
+  borders: [],
   nativeName: "Antarctica",
   numericCode: "010",
   flags: {
@@ -460,6 +457,7 @@ export const data = [
   demonym: "Antiguan, Barbudan",
   area: 442.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Antigua and Barbuda",
   numericCode: "028",
   flags: {
@@ -623,6 +621,7 @@ export const data = [
   demonym: "Aruban",
   area: 180.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Aruba",
   numericCode: "533",
   flags: {
@@ -817,6 +816,7 @@ export const data = [
   demonym: "Bahamian",
   area: 13943.0,
   timezones: ["UTC-05:00"],
+  borders: [],
   nativeName: "Bahamas",
   numericCode: "044",
   flags: {
@@ -974,6 +974,7 @@ export const data = [
   demonym: "Barbadian",
   area: 430.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Barbados",
   numericCode: "052",
   flags: {
@@ -1272,6 +1273,7 @@ export const data = [
   demonym: "Bermudian",
   area: 54.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Bermuda",
   numericCode: "060",
   flags: {
@@ -1432,6 +1434,7 @@ export const data = [
   demonym: "Dutch",
   area: 294.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Bonaire",
   numericCode: "535",
   flags: {

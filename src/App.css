@@ -76,6 +76,12 @@ header {
   gap: 100px;
 }
 
+@media only screen and (max-width: 768px) {
+  .country-catalog {
+    padding: 50px 30px;
+  }
+}
+
 .country-catalog-dark {
   background-color: #2b3945;
   color: white;
@@ -207,6 +213,14 @@ header {
   height: calc(100vh - 137px);
 }
 
+@media only screen and (max-width: 768px) {
+  .country-info-wrapper {
+   height: 100%;
+   padding: 10px 30px;
+  }
+}
+
+
 .country-info-wrapper-dark{
   background-color: #2b3945;
   color: white;
@@ -229,12 +243,66 @@ header {
   color: white;
 }
 
+.borders-btn {
+  border: 1px solid black;
+  box-shadow: 0px 0px 20px;
+  background-color: transparent;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.borders-btn-dark {
+  background-color: rgb(54, 69, 79);
+  color: white;
+}
+
+.country-info-borders {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
 .country-info-container {
   display: flex;
   gap: 100px;
+
 }
+
+@media only screen and (max-width: 768px) {
+
+  .country-info-container {
+    flex-direction: column;
+    
+  }
+}
+
+
 
 .country-info-flag {
   max-width: 500px;
   width: 100%;
+}
+
+.country-info-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.country-info-content-other {
+  display: flex;
+  gap: 30px;
+}
+
+.country-info-content-title {
+  font-weight: bold;
+  
+}
+
+.country-info-content-title-notbold {
+  font-weight: normal;
 }

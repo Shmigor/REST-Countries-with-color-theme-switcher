@@ -12,7 +12,6 @@ function App() {
 
       <Route path="/" element={<Homepage />}></Route>
       <Route path="/:name" element={<CountryInfo />}></Route>
-    
     </Routes>
 
   );
