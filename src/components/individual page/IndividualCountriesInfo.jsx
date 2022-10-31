@@ -28,7 +28,12 @@ const IndividualCountriesInfo = ({isDarkMode}) => {
             </div>
             <div>
                 <p className="country-info-content-title">Top level domain: <span className="country-info-content-title-notbold">{country[0].topLevelDomain}</span></p>
-                <p className="country-info-content-title">Time Zone: <span className="country-info-content-title-notbold">{country[0].timezones[0]}</span></p>
+                <p className="country-info-content-title">Time Zone: {country[0].timezones.map((timezones)=> {
+                    return (
+                        <span className="country-info-content-title-notbold"> {timezones}</span>
+                    )
+                }
+                )}</p>
                 <p className="country-info-content-title">Currencies: {country[0].currencies.map((currencies)=> {
                     return (
                         <span className="country-info-content-title-notbold"> {currencies.code}, {currencies.name}, {currencies.symbol}</span>

@@ -680,6 +680,7 @@ export const data = [
    "UTC+10:30",
    "UTC+11:30",
   ],
+  borders: [],
   nativeName: "Australia",
   numericCode: "036",
   flags: {
@@ -870,6 +871,7 @@ export const data = [
   demonym: "Bahraini",
   area: 765.0,
   timezones: ["UTC+03:00"],
+  borders: [],
   nativeName: "‏البحرين",
   numericCode: "048",
   flags: {
@@ -1599,6 +1601,7 @@ export const data = [
   demonym: "Norwegian",
   area: 49.0,
   timezones: ["UTC+01:00"],
+  borders: [],
   nativeName: "Bouvetøya",
   numericCode: "074",
   flags: {
@@ -1731,6 +1734,7 @@ export const data = [
   demonym: "Indian",
   area: 60.0,
   timezones: ["UTC+06:00"],
+  borders: [],
   nativeName: "British Indian Ocean Territory",
   numericCode: "086",
   flags: {
@@ -1782,6 +1786,7 @@ export const data = [
   population: 300,
   demonym: "American",
   timezones: ["UTC-11:00", "UTC-10:00", "UTC+12:00"],
+  borders: [],
   nativeName: "United States Minor Outlying Islands",
   numericCode: "581",
   flags: {
@@ -1823,6 +1828,7 @@ export const data = [
   demonym: "Virgin Islander",
   area: 151.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "British Virgin Islands",
   numericCode: "092",
   flags: {
@@ -1870,6 +1876,7 @@ export const data = [
   demonym: "Virgin Islander",
   area: 346.36,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Virgin Islands of the United States",
   numericCode: "850",
   flags: {
@@ -2307,6 +2314,7 @@ export const data = [
   area: 4033.0,
   gini: 42.4,
   timezones: ["UTC-01:00"],
+  borders: [],
   nativeName: "Cabo Verde",
   numericCode: "132",
   flags: {
@@ -2367,6 +2375,7 @@ export const data = [
   demonym: "Caymanian",
   area: 264.0,
   timezones: ["UTC-05:00"],
+  borders: [],
   nativeName: "Cayman Islands",
   numericCode: "136",
   flags: {
@@ -2666,6 +2675,7 @@ export const data = [
   demonym: "Christmas Island",
   area: 135.0,
   timezones: ["UTC+07:00"],
+  borders: [],
   nativeName: "Christmas Island",
   numericCode: "162",
   flags: {
@@ -2711,6 +2721,7 @@ export const data = [
   demonym: "Cocos Islander",
   area: 14.0,
   timezones: ["UTC+06:30"],
+  borders: [],
   nativeName: "Cocos (Keeling) Islands",
   numericCode: "166",
   flags: {
@@ -2821,6 +2832,7 @@ export const data = [
   area: 1862.0,
   gini: 45.3,
   timezones: ["UTC+03:00"],
+  borders: [],
   nativeName: "Komori",
   numericCode: "174",
   flags: {
@@ -3010,6 +3022,7 @@ export const data = [
   demonym: "Cook Islander",
   area: 236.0,
   timezones: ["UTC-10:00"],
+  borders: [],
   nativeName: "Cook Islands",
   numericCode: "184",
   flags: {
@@ -3158,6 +3171,7 @@ export const data = [
   demonym: "Cuban",
   area: 109884.0,
   timezones: ["UTC-05:00"],
+  borders: [],
   nativeName: "Cuba",
   numericCode: "192",
   flags: {
@@ -3210,6 +3224,7 @@ export const data = [
   demonym: "Dutch",
   area: 444.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Curaçao",
   numericCode: "531",
   flags: {
@@ -3320,6 +3335,7 @@ export const data = [
   area: 78865.0,
   gini: 25.0,
   timezones: ["UTC+01:00"],
+  borders: [],
   nativeName: "Česká republika",
   numericCode: "203",
   flags: {
@@ -3489,6 +3505,7 @@ export const data = [
   demonym: "Dominican",
   area: 751.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Dominica",
   numericCode: "212",
   flags: {
@@ -4016,6 +4033,7 @@ export const data = [
   demonym: "Falkland Islander",
   area: 12173.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Falkland Islands",
   numericCode: "238",
   flags: {
@@ -4070,6 +4088,7 @@ export const data = [
   demonym: "Faroese",
   area: 1393.0,
   timezones: ["UTC+00:00"],
+  borders: [],
   nativeName: "Føroyar",
   numericCode: "234",
   flags: {
@@ -4121,6 +4140,7 @@ export const data = [
   area: 18272.0,
   gini: 36.7,
   timezones: ["UTC+12:00"],
+  borders: [],
   nativeName: "Fiji",
   numericCode: "242",
   flags: {
@@ -4343,6 +4363,7 @@ export const data = [
   demonym: "French Polynesian",
   area: 4167.0,
   timezones: ["UTC-10:00", "UTC-09:30", "UTC-09:00"],
+  borders: [],
   nativeName: "Polynésie française",
   numericCode: "258",
   flags: {
@@ -4384,6 +4405,7 @@ export const data = [
   demonym: "French",
   area: 7747.0,
   timezones: ["UTC+05:00"],
+  borders: [],
   nativeName: "Territoire des Terres australes et antarctiques françaises",
   numericCode: "260",
   flags: {
@@ -4795,6 +4817,7 @@ export const data = [
   demonym: "Greenlandic",
   area: 2166086.0,
   timezones: ["UTC-04:00", "UTC-03:00", "UTC-01:00", "UTC+00:00"],
+  borders: [],
   nativeName: "Kalaallit Nunaat",
   numericCode: "304",
   flags: {
@@ -4841,6 +4864,7 @@ export const data = [
   demonym: "Grenadian",
   area: 344.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Grenada",
   numericCode: "308",
   flags: {
@@ -4893,6 +4917,7 @@ export const data = [
   latlng: [16.25, -61.583333],
   demonym: "Guadeloupian",
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Guadeloupe",
   numericCode: "312",
   flags: {
@@ -5030,6 +5055,7 @@ export const data = [
   demonym: "Channel Islander",
   area: 78.0,
   timezones: ["UTC+00:00"],
+  borders: [],
   nativeName: "Guernsey",
   numericCode: "831",
   flags: {
@@ -5330,6 +5356,7 @@ export const data = [
   demonym: "Heard and McDonald Islander",
   area: 412.0,
   timezones: ["UTC+05:00"],
+  borders: [],
   nativeName: "Heard Island and McDonald Islands",
   numericCode: "334",
   flags: {
@@ -5563,6 +5590,7 @@ export const data = [
   area: 103000.0,
   gini: 26.1,
   timezones: ["UTC"],
+  borders: [],
   nativeName: "Ísland",
   numericCode: "352",
   flags: {
@@ -5919,6 +5947,7 @@ export const data = [
   demonym: "Manx",
   area: 572.0,
   timezones: ["UTC+00:00"],
+  borders: [],
   nativeName: "Isle of Man",
   numericCode: "833",
   flags: {
@@ -6061,6 +6090,7 @@ export const data = [
   area: 10991.0,
   gini: 45.5,
   timezones: ["UTC-05:00"],
+  borders: [],
   nativeName: "Jamaica",
   numericCode: "388",
   flags: {
@@ -6115,6 +6145,7 @@ export const data = [
   area: 377930.0,
   gini: 32.9,
   timezones: ["UTC+09:00"],
+  borders: [],
   nativeName: "日本",
   numericCode: "392",
   flags: {
@@ -6167,6 +6198,7 @@ export const data = [
   demonym: "Channel Islander",
   area: 116.0,
   timezones: ["UTC+01:00"],
+  borders: [],
   nativeName: "Jersey",
   numericCode: "832",
   flags: {
@@ -6387,6 +6419,7 @@ export const data = [
   area: 811.0,
   gini: 37.0,
   timezones: ["UTC+12:00", "UTC+13:00", "UTC+14:00"],
+  borders: [],
   nativeName: "Kiribati",
   numericCode: "296",
   flags: {
@@ -7158,6 +7191,7 @@ export const data = [
   area: 587041.0,
   gini: 42.6,
   timezones: ["UTC+03:00"],
+  borders: [],
   nativeName: "Madagasikara",
   numericCode: "450",
   flags: {
@@ -7335,6 +7369,7 @@ export const data = [
   area: 300.0,
   gini: 31.3,
   timezones: ["UTC+05:00"],
+  borders: [],
   nativeName: "Maldives",
   numericCode: "462",
   flags: {
@@ -7438,6 +7473,7 @@ export const data = [
   area: 316.0,
   gini: 28.7,
   timezones: ["UTC+01:00"],
+  borders: [],
   nativeName: "Malta",
   numericCode: "470",
   flags: {
@@ -7486,6 +7522,7 @@ export const data = [
   demonym: "Marshallese",
   area: 181.0,
   timezones: ["UTC+12:00"],
+  borders: [],
   nativeName: "M̧ajeļ",
   numericCode: "584",
   flags: {
@@ -7533,6 +7570,7 @@ export const data = [
   latlng: [14.666667, -61.0],
   demonym: "French",
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Martinique",
   numericCode: "474",
   flags: {
@@ -7645,6 +7683,7 @@ export const data = [
   area: 2040.0,
   gini: 36.8,
   timezones: ["UTC+04:00"],
+  borders: [],
   nativeName: "Maurice",
   numericCode: "480",
   flags: {
@@ -7699,6 +7738,7 @@ export const data = [
   latlng: [-12.83333333, 45.16666666],
   demonym: "French",
   timezones: ["UTC+03:00"],
+  borders: [],
   nativeName: "Mayotte",
   numericCode: "175",
   flags: {
@@ -7818,6 +7858,7 @@ export const data = [
   area: 702.0,
   gini: 40.1,
   timezones: ["UTC+10:00", "UTC+11:00"],
+  borders: [],
   nativeName: "Micronesia",
   numericCode: "583",
   flags: {
@@ -8064,6 +8105,7 @@ export const data = [
   demonym: "Montserratian",
   area: 102.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Montserrat",
   numericCode: "500",
   flags: {
@@ -8369,6 +8411,7 @@ export const data = [
   area: 21.0,
   gini: 34.8,
   timezones: ["UTC+12:00"],
+  borders: [],
   nativeName: "Nauru",
   numericCode: "520",
   flags: {
@@ -8513,6 +8556,7 @@ export const data = [
   demonym: "New Caledonian",
   area: 18575.0,
   timezones: ["UTC+11:00"],
+  borders: [],
   nativeName: "Nouvelle-Calédonie",
   numericCode: "540",
   flags: {
@@ -8554,6 +8598,7 @@ export const data = [
   demonym: "New Zealander",
   area: 270467.0,
   timezones: ["UTC-11:00", "UTC-10:00", "UTC+12:00", "UTC+12:45", "UTC+13:00"],
+  borders: [],
   nativeName: "New Zealand",
   numericCode: "554",
   flags: {
@@ -8763,6 +8808,7 @@ export const data = [
   demonym: "Niuean",
   area: 260.0,
   timezones: ["UTC-11:00"],
+  borders: [],
   nativeName: "Niuē",
   numericCode: "570",
   flags: {
@@ -8811,6 +8857,7 @@ export const data = [
   demonym: "Norfolk Islander",
   area: 36.0,
   timezones: ["UTC+11:30"],
+  borders: [],
   nativeName: "Norfolk Island",
   numericCode: "574",
   flags: {
@@ -8904,6 +8951,7 @@ export const data = [
   demonym: "American",
   area: 464.0,
   timezones: ["UTC+10:00"],
+  borders: [],
   nativeName: "Northern Mariana Islands",
   numericCode: "580",
   flags: {
@@ -9117,6 +9165,7 @@ export const data = [
   demonym: "Palauan",
   area: 459.0,
   timezones: ["UTC+09:00"],
+  borders: [],
   nativeName: "Palau",
   numericCode: "585",
   flags: {
@@ -9446,6 +9495,7 @@ export const data = [
   area: 342353.0,
   gini: 42.3,
   timezones: ["UTC+08:00"],
+  borders: [],
   nativeName: "Pilipinas",
   numericCode: "608",
   flags: {
@@ -9491,6 +9541,7 @@ export const data = [
   demonym: "Pitcairn Islander",
   area: 47.0,
   timezones: ["UTC-08:00"],
+  borders: [],
   nativeName: "Pitcairn Islands",
   numericCode: "612",
   flags: {
@@ -9644,6 +9695,7 @@ export const data = [
   demonym: "Puerto Rican",
   area: 8870.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Puerto Rico",
   numericCode: "630",
   flags: {
@@ -9792,6 +9844,7 @@ export const data = [
   latlng: [-21.15, 55.5],
   demonym: "French",
   timezones: ["UTC+04:00"],
+  borders: [],
   nativeName: "La Réunion",
   numericCode: "638",
   flags: {
@@ -10043,6 +10096,7 @@ export const data = [
   demonym: "Saint Barthélemy Islander",
   area: 21.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Saint-Barthélemy",
   numericCode: "652",
   flags: {
@@ -10083,6 +10137,7 @@ export const data = [
   latlng: [-15.95, -5.7],
   demonym: "Saint Helenian",
   timezones: ["UTC+00:00"],
+  borders: [],
   nativeName: "Saint Helena",
   numericCode: "654",
   flags: {
@@ -10137,6 +10192,7 @@ export const data = [
   demonym: "Kittian and Nevisian",
   area: 261.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Saint Kitts and Nevis",
   numericCode: "659",
   flags: {
@@ -10191,6 +10247,7 @@ export const data = [
   area: 616.0,
   gini: 51.2,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Saint Lucia",
   numericCode: "662",
   flags: {
@@ -10292,6 +10349,7 @@ export const data = [
   demonym: "French",
   area: 242.0,
   timezones: ["UTC-03:00"],
+  borders: [],
   nativeName: "Saint-Pierre-et-Miquelon",
   numericCode: "666",
   flags: {
@@ -10333,6 +10391,7 @@ export const data = [
   demonym: "Saint Vincentian",
   area: 389.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Saint Vincent and the Grenadines",
   numericCode: "670",
   flags: {
@@ -10391,6 +10450,7 @@ export const data = [
   area: 2842.0,
   gini: 38.7,
   timezones: ["UTC+13:00"],
+  borders: [],
   nativeName: "Samoa",
   numericCode: "882",
   flags: {
@@ -10487,6 +10547,7 @@ export const data = [
   area: 964.0,
   gini: 56.3,
   timezones: ["UTC"],
+  borders: [],
   nativeName: "São Tomé e Príncipe",
   numericCode: "678",
   flags: {
@@ -10728,6 +10789,7 @@ export const data = [
   area: 452.0,
   gini: 32.1,
   timezones: ["UTC+04:00"],
+  borders: [],
   nativeName: "Seychelles",
   numericCode: "690",
   flags: {
@@ -10841,6 +10903,7 @@ export const data = [
   demonym: "Singaporean",
   area: 710.0,
   timezones: ["UTC+08:00"],
+  borders: [],
   nativeName: "Singapore",
   numericCode: "702",
   flags: {
@@ -11040,6 +11103,7 @@ export const data = [
   area: 28896.0,
   gini: 37.1,
   timezones: ["UTC+11:00"],
+  borders: [],
   nativeName: "Solomon Islands",
   numericCode: "090",
   flags: {
@@ -11235,6 +11299,7 @@ export const data = [
   latlng: [-54.5, -37.0],
   demonym: "South Georgia and the South Sandwich Islander",
   timezones: ["UTC-02:00"],
+  borders: [],
   nativeName: "South Georgia",
   numericCode: "239",
   flags: {
@@ -11621,6 +11686,7 @@ export const data = [
   latlng: [78.0, 20.0],
   demonym: "Norwegian",
   timezones: ["UTC+01:00"],
+  borders: [],
   nativeName: "Svalbard og Jan Mayen",
   numericCode: "744",
   flags: {
@@ -11892,6 +11958,7 @@ export const data = [
   demonym: "Taiwanese",
   area: 36193.0,
   timezones: ["UTC+08:00"],
+  borders: [],
   nativeName: "臺灣",
   numericCode: "158",
   flags: {
@@ -12218,6 +12285,7 @@ export const data = [
   demonym: "Tokelauan",
   area: 12.0,
   timezones: ["UTC+13:00"],
+  borders: [],
   nativeName: "Tokelau",
   numericCode: "772",
   flags: {
@@ -12260,6 +12328,7 @@ export const data = [
   area: 747.0,
   gini: 37.6,
   timezones: ["UTC+13:00"],
+  borders: [],
   nativeName: "Tonga",
   numericCode: "776",
   flags: {
@@ -12309,6 +12378,7 @@ export const data = [
   area: 5130.0,
   gini: 40.3,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Trinidad and Tobago",
   numericCode: "780",
   flags: {
@@ -12517,6 +12587,7 @@ export const data = [
   demonym: "Turks and Caicos Islander",
   area: 948.0,
   timezones: ["UTC-04:00"],
+  borders: [],
   nativeName: "Turks and Caicos Islands",
   numericCode: "796",
   flags: {
@@ -12559,6 +12630,7 @@ export const data = [
   area: 26.0,
   gini: 39.1,
   timezones: ["UTC+12:00"],
+  borders: [],
   nativeName: "Tuvalu",
   numericCode: "798",
   flags: {
@@ -13005,6 +13077,7 @@ export const data = [
   area: 12189.0,
   gini: 37.6,
   timezones: ["UTC+11:00"],
+  borders: [],
   nativeName: "Vanuatu",
   numericCode: "548",
   flags: {
@@ -13170,6 +13243,7 @@ export const data = [
   demonym: "Wallis and Futuna Islander",
   area: 142.0,
   timezones: ["UTC+12:00"],
+  borders: [],
   nativeName: "Wallis et Futuna",
   numericCode: "876",
   flags: {
