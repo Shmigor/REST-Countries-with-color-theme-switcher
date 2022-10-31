@@ -1,5 +1,4 @@
 
-
 import {useEffect, useState} from "react";
 import { Oval } from 'react-loader-spinner'
 import Button from "./Button";
@@ -18,7 +17,7 @@ const IndividualCountries = ({isDarkMode}) => {
             setIsLoading(true);
             setTimeout(() => {
                 setIsLoading(false);
-            },[2000]);
+            },[1000]);
         },[]);
         if(isLoading) {
             return(
