@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import {useState} from "react";
-import CountryInfoDetails from "../components/individual page/CountryInfoDetails";
+import IndividualCountries from "../components/individual page/IndividualCountries";
 
 const CountryInfo = () => {
 
@@ -10,7 +10,7 @@ const CountryInfo = () => {
 
         <div>
             <Header setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode}/>
-            <CountryInfoDetails setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode}/>
+            <IndividualCountries setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode}/>
         </div>
     )
 }
