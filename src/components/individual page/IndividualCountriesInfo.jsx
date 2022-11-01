@@ -35,13 +35,13 @@ const IndividualCountriesInfo = ({isDarkMode}) => {
                     )
                 }
                 )}</p>
-                <p className="country-info-content-title">Currencies: {country[0].currencies.map((currencies)=> {
+                <p className="country-info-content-title">Currencies: {country[0]?.currencies && country[0].currencies.map((currencies)=> {
                     return (
                         <span className="country-info-content-title-notbold"> {currencies.code}, {currencies.name}, {currencies.symbol}</span>
                     )
                 }
                 )}</p>
-                <p className="country-info-content-title">Languages: {country[0].languages.map((languages)=> {
+                <p className="country-info-content-title">Languages: {country[0]?.languages && country[0].languages.map((languages)=> {
                     return (
                         <span className="country-info-content-title-notbold"> {languages.iso639_1}, {languages.iso639_2}, {languages.name}, {languages.nativeName} </span>
                     )
@@ -52,7 +52,7 @@ const IndividualCountriesInfo = ({isDarkMode}) => {
 
         <div className="country-info-borders">
         Border Countries: 
-            {country[0].borders.map((border) => {
+            {country[0]?.borders && country[0].borders.map((border) => {
                 return (
                     <button onClick={() => navigate(`/${border}`)} className={isDarkMode ? "borders-btn borders-btn-dark" : "borders-btn"}>{border}</button>
                 )
