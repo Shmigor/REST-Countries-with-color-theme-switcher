@@ -6,8 +6,9 @@ import {useNavigate} from "react-router-dom";
 const IndividualCountriesInfo = ({isDarkMode}) => {
 
 
-    const { name } = useParams();
-    const country = data.filter((item) => item.name === name);
+    const { alpha3Code } = useParams();
+    console.log(alpha3Code);
+    const country = data.filter((item) => item.alpha3Code === alpha3Code);
     console.log(country[0].name);
     const navigate = useNavigate();
 
@@ -51,9 +52,9 @@ const IndividualCountriesInfo = ({isDarkMode}) => {
 
         <div className="country-info-borders">
         Border Countries: 
-            {country[0].borders.map((borders) => {
+            {country[0].borders.map((border) => {
                 return (
-                    <button onClick={() => navigate(`/${country[0].alpha3Code}`)} className={isDarkMode ? "borders-btn borders-btn-dark" : "borders-btn"}>{borders}</button>
+                    <button onClick={() => navigate(`/${border}`)} className={isDarkMode ? "borders-btn borders-btn-dark" : "borders-btn"}>{border}</button>
                 )
                 })}
         </div>

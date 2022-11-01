@@ -11,7 +11,7 @@ function App() {
     <Routes>
 
       <Route path="/" element={<Homepage />}></Route>
-      <Route path="/:name" element={<CountryInfo />}></Route>
+      <Route path="/:alpha3Code" element={<CountryInfo />}></Route>
     </Routes>
 
   );
