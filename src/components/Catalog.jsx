@@ -6,7 +6,7 @@ import Filter from "./Filter";
 
 
 
-const Catalog = ({isDarkMode, setIsDarkMode})=>{
+const Catalog = ({isDarkMode})=>{
 
     const [countries, setCountries] = useState(data);
     const [searchQuery, setSearchQuery] = useState("");

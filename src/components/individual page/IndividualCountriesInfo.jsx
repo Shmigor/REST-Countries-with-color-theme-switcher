@@ -7,9 +7,9 @@ const IndividualCountriesInfo = ({isDarkMode}) => {
 
 
     const { alpha3Code } = useParams();
-    console.log(alpha3Code);
+
     const country = data.filter((item) => item.alpha3Code === alpha3Code);
-    console.log(country[0].name);
+  
     const navigate = useNavigate();
 
     return(
@@ -52,7 +52,7 @@ const IndividualCountriesInfo = ({isDarkMode}) => {
 
         <div className="country-info-borders">
         Border Countries: 
-            {country[0]?.borders && country[0].borders.map((border) => {
+            {country[0].borders && country[0].borders.map((border) => {
                 return (
                     <button onClick={() => navigate(`/${border}`)} className={isDarkMode ? "borders-btn borders-btn-dark" : "borders-btn"}>{border}</button>
                 )

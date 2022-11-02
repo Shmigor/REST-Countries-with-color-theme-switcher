@@ -1,10 +1,10 @@
 import Header from "../components/Header";
 import Catalog from "../components/Catalog";
-import {useState} from "react";
 
 
-const Homepage = ()=>{
-    const [isDarkMode, setIsDarkMode] = useState(false);
+
+const Homepage = ({isDarkMode, setIsDarkMode})=>{
+
     return(
         <div>
             <Header setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode}/>

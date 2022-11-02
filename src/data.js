@@ -4543,7 +4543,7 @@ export const data = [
   capital: "Tbilisi",
   altSpellings: ["GE", "Sakartvelo"],
   subregion: "Western Asia",
-  region: "Asia",
+  region: "Europe",
   population: 3714000,
   latlng: [42.0, 43.5],
   demonym: "Georgian",
