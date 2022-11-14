@@ -5,7 +5,7 @@ const Card = ({country, isDarkMode})=> {
     const navigate = useNavigate();
 
     return(
-        <div onClick={() => navigate(`/${country.alpha3Code}`)} className={isDarkMode ? "card-container card-container-dark" : "card-container"}>
+        <div onClick={() => navigate(`/${country.alpha3Code}`)} className={document.cookie.includes("true") ? "card-container card-container-dark" : "card-container"}>
             
             <div className="flag-img-wrapper">
                 <img className="flag-img" src={country.flags.png} alt={country.name} />

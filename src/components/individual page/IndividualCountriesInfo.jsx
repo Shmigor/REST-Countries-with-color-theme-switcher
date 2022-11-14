@@ -54,7 +54,7 @@ const IndividualCountriesInfo = ({isDarkMode}) => {
         Border Countries: 
             {country[0].borders && country[0].borders.map((border) => {
                 return (
-                    <button onClick={() => navigate(`/${border}`)} className={isDarkMode ? "borders-btn borders-btn-dark" : "borders-btn"}>{border}</button>
+                    <button onClick={() => navigate(`/${border}`)} className={document.cookie.includes("true") ? "borders-btn borders-btn-dark" : "borders-btn"}>{border}</button>
                 )
                 })}
         </div>

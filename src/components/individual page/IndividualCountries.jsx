@@ -38,7 +38,7 @@ const IndividualCountries = ({isDarkMode}) => {
         };
 
     return(
-        <div className={isDarkMode ? "country-info-wrapper country-info-wrapper-dark" : "country-info-wrapper"}>
+        <div className={document.cookie.includes("true") ? "country-info-wrapper country-info-wrapper-dark" : "country-info-wrapper"}>
                 <Button isDarkMode={isDarkMode}/>
             <div className="country-info-container">
                 <IndividualFlag/>

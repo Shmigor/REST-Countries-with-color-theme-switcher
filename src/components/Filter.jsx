@@ -5,7 +5,7 @@ const Filter = ({isDarkMode, setSelect})=>{
         setSelect(e.target.value);
     }
     return (
-    <select onChange={handleSelect} className={isDarkMode ? "select select-dark" : "select"}>
+    <select onChange={handleSelect} className={document.cookie.includes("true") ? "select select-dark" : "select"}>
         <option>All</option>
         <option>Africa</option>
         <option>America</option>

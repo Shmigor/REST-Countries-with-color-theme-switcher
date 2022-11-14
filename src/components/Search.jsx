@@ -12,7 +12,7 @@ const Search = ({setSearchQuery, isDarkMode})=>{
             <div className="search-icon">
             <FontAwesomeIcon icon={faMagnifyingGlass}/>
             </div>
-            <input className={isDarkMode ? "search-input search-input-dark" : "search-input"} placeholder="Search for a country..." type="search" onChange={handleSearch}/>
+            <input className={document.cookie.includes("true") ? "search-input search-input-dark" : "search-input"} placeholder="Search for a country..." type="search" onChange={handleSearch}/>
         </div>
     )
 }

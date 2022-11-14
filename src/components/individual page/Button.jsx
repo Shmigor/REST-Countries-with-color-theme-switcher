@@ -7,7 +7,7 @@ const Button = ({isDarkMode}) => {
     return (
 
         <Link to="/">
-        <button className={isDarkMode ? "back-btn back-btn-dark" : "back-btn"}>
+        <button className={document.cookie.includes("true") ? "back-btn back-btn-dark" : "back-btn"}>
             <FontAwesomeIcon icon={faArrowLeft}/>
             Back
         </button>

@@ -31,7 +31,7 @@ const Catalog = ({isDarkMode})=>{
     }, [searchQuery, select]);
 
     return(
-        <div className={isDarkMode ? "country-catalog country-catalog-dark" : "country-catalog"}>
+        <div className={document.cookie.includes("true") ? "country-catalog country-catalog-dark" : "country-catalog"}>
             
             <div className="filters-wrapper">
                 <Search setSearchQuery={setSearchQuery}
